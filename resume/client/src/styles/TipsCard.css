@@ -1,0 +1,31 @@
+.tips-card {
+  margin-top: 30px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.tip-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.tip-icon {
+  margin-right: 10px;
+  color: #eab308;
+}
+.skill-card,
+.tips-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.skill-card:hover,
+.tips-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 255, 150, 0.2);
+}

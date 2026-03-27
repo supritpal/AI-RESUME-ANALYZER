@@ -1,0 +1,12 @@
+.upload-box {
+  margin: 20px 0;
+}
+
+.upload-box input {
+  margin-bottom: 10px;
+}
+.file-name {
+  color: #cbd5f5;
+  font-size: 14px;
+  margin: 8px 0;
+}

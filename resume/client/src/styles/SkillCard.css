@@ -1,0 +1,37 @@
+.skill-card {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.green {
+  color: #22c55e;
+}
+
+.red {
+  color: #ef4444;
+}
+.skill-card,
+.tips-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.skill-card:hover,
+.tips-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 255, 150, 0.2);
+}
