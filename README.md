@@ -6,8 +6,8 @@ An AI-powered full-stack web application that analyzes resumes against job descr
 
 ## 🌐 Live Demo
 
-* 🔗 Frontend: https://ai-resume-analyzer-by-suprit.vercel.app/
-* 🔗 Backend: https://your-render-link.onrender.com
+* 🔗 Project live link : https://ai-resume-analyzer-by-suprit.vercel.app/
+  
 
 ---
 
